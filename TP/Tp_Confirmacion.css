@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#E9D2F4;
+}
+
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center; margin:8px;}
+
+
+.tituloh1{
+    text-align: center;
+}
+
+.links1{
+    display: inline-block;
+    background: salmon;
+    color: #fff; 
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+
+img{
+    margin: auto;
+    display: block;
+}
