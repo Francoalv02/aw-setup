@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#E9D2F4;
+}
+
+
+
+h1{
+    background: bisque;
+    text-shadow: 1px 1px 1px black;
+    margin: 13px;
+    padding:13px;
+    text-align: center;
+    border: 3px solid black;
+    
+}
+hr{
+    margin-bottom: 20px;
+}
+
+nav{
+    color:maroon;
+    margin: 10px;
+    padding:10px;
+    
+}
+
+.links1{
+    font-size: 25px;
+}
+
+.fondo1{
+    background-color: bisque;
+    margin: 10px;
+    padding:10px;
+    border: 3px solid black;
+   
+}
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center; margin:8px;}
+
+
+.fondo3{
+    background-color: bisque;
+    margin: 100px;
+    padding: 100px;
+    border: 3px solid black ;
+}
+
+.imagen1{
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+.imagen2{
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+.fondo4{
+    background-color: bisque;
+    margin:0%
+}
+
+.ceremonia{
+    text-align: center;
+    margin:0 auto;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.vestimenta{
+    background-color: #8D6A9F;
+    margin: 0 auto;
+}
+.vestimenta2{
+    text-align: center;
+}
+
+.linkconfirmacion{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boton,a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
