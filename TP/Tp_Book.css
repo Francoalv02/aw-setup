@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color:#E9D2F4;
 }
 
-hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center; margin:8px;}
 hr{
     margin-bottom: 20px;
 }
@@ -29,12 +29,11 @@ h1{
     border: 3px solid black;
     
 }
-hr{
-    margin-bottom: 20px;
-}
-
-.tituloh1{
-    text-align: center;
+nav{
+    
+    margin: 10px;
+    padding:10px;
+    
 }
 .links1{
     font-size: 25px;
@@ -44,19 +43,12 @@ hr{
     background: salmon;
     color: #fff; 
     padding: 10px 10px;
-    text-decoration: none;
+    text-decoration:none;
 
 }
+
 .links1:hover{
     background: rosybrown;
 }
 
-img{
-    margin: auto;
-    display: block;
-
-}
-
-.divConfirmacion{
-    text-align: center;
-}
+hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: center; margin:8px;}
