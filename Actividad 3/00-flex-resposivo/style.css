@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+html.body, h1,h2,h5{
+    padding: 0;
+    margin: 0;
+    
+}
+html,body{
+    min-height: 100%;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+article{
+    width:calc(50px-10px);
+    background-color: chartreuse;
+    padding: 10px;
+}
+@media(min-width:768px){
+    article{
+        width:calc(33% - 5px);
+    }
+}
+
+header{
+    background-color:aquamarine;
+}
+footer{
+    background-color: blueviolet;
+
+}
+

@@ -24,5 +24,8 @@
   "homepage": "https://github.com/recursosdev/aw1-setup#readme",
   "devDependencies": {
     "five-server": "^0.3.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
