@@ -6,13 +6,14 @@
 
 
 body{
-    background-color:#E9D2F4;
+    background-color:#B3B6B7 ;
 }
 
 
 
 h1{
     background: bisque;
+    
     text-shadow: 1px 1px 1px black;
     margin: 13px;
     padding:13px;
@@ -26,15 +27,39 @@ hr{
 }
 
 nav{
-    color:maroon;
+  
     margin: 10px;
     padding:10px;
     
 }
 
-.links1{
-    font-size: 25px;
+.nav_home{
+    background: #f8eae2;
+    color: black;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+
+
 }
+
+@media(max-width:500px){
+    nav{
+
+        display:flex;
+        flex-direction: column;
+        justify-content: 10px 0;
+    }
+    .links1{
+        margin: 10px 0;
+       
+    }
+    .nav_home{
+        display:inline-block;
+    }
+
+}
+
 
 .fondo1{
     background-color: bisque;
@@ -48,8 +73,8 @@ hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: 
 
 .fondo3{
     background-color: bisque;
-    margin: 100px;
-    padding: 100px;
+    margin: 50px;
+    padding: 50px;
     border: 3px solid black ;
 }
 
@@ -95,19 +120,24 @@ img{
     text-align: center;
     margin: 0 auto;
 }
-
+.p_frase{
+    text-align: center;
+}
 .links1{
     display: inline-block;
-    background: salmon;
-    color: #fff; 
+    background: #f8eae2;
+    color: black; 
     padding: 10px 10px;
     text-decoration: none;
+    font-size: 25px;
 
 }
 .links1:hover{
-    background: rosybrown;
+    background: salmon;
 }
-
+.links1:active{
+    background:#a7a2ff;
+}
 .linkMaps{
     display: inline-block;
     background: salmon;
@@ -141,5 +171,7 @@ img{
     background: rosybrown;
 }
 
-
+.divConfirmacion{
+    text-align: center;
+}
 
