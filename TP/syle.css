@@ -177,7 +177,15 @@ hr {border: 3px solid #666; border-radius: 300px/10px; height: 0px; text-align: 
     background-color: bisque;
     
 }
-
+.fondoCliente3{
+    background-color: #a19ee2;
+}
+.contFondoCliente3{
+    background-color: #a19ee2;
+    margin: 10px;
+    padding:10px;
+    border: 3px solid black;
+}
 
 .ceremonia{
     text-align: center;
