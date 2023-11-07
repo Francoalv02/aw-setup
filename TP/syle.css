@@ -156,6 +156,7 @@ nav{
 .botonhome{
     display: flex;
     justify-content: center;
+    justify-items: center;
     border: none; 
 
     
