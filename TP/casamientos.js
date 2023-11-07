@@ -27,4 +27,36 @@ const casamientos = {
    
 }
 
+const servicios= {
+    servicio:[
+        {
+            tipo:"BASICO",
+            invitacion:true,
+            book:false,
+            confirmacion:false,
+            id:1,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja. "
+
+        },
+        {
+            tipo:"MEDIO",
+            invitacion:true,
+            book:true,
+            confirmacion:false,
+            id:2,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK."
+
+        },
+        {
+            tipo:"PREMIUN",
+            invitacion:true,
+            book:true,
+            confirmacion:true,
+            id:3,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK  "
+
+        }
+    ]
+}
+
 export default casamientos

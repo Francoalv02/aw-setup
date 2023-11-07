@@ -257,10 +257,10 @@ hr {border: 3px solid black; border-radius: 300px/10px; height: 0px; text-align:
     display: flex;
     justify-content: space-between;
     justify-items: end;
-  background-color:darkgrey;
-  border-radius: 6%;
-    margin: 8px;
-  padding: 8px;
+  background-color:rgb(150, 136, 136);
+  border-radius: 5px;
+    margin: 5px;
+  padding: 5px;
 }
 .imagenfooter{
     display: flex;
