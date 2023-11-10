@@ -27,8 +27,6 @@
 
     <main>
         <div class="divConfirmacion">
-        
-
 
             <img width="1400" height="400" src="./fotos/menu.webp">
 
@@ -37,17 +35,28 @@
             <h1>Confirmacion de Asistencia</h1>
 
             <hr>
-
-                   
+ 
             <for method="post" action="">
+                <br>
                 <div>
-                    <label>Nuestra Flia ,SI asistira al Casamiento</label>
+                    <label>Elija a cual Casamiento fue invitado</label>
+                    <select name="id Casamiento">
+                        <option value="2580"selected>Casamiento Priscila y Franco</option>
+                        <option value="2525" >Casamiento Ignacio y Catalina</option>
+                        <option value="2569">Casamiento Raul y Sofia</option>
+
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label>SI asistire al Casamiento</label>
                     <input type="checkbox" value="SI ,VOY AL CASAMIENTO"/>
                 </div>
 
                 <br>
                 <div>
-                    <label>Apellido Flia:</label>
+                    <label>Nombre y Apellido:</label>
                     <input type="text" name="nombre"/>
                     
                 </div>
@@ -64,7 +73,7 @@
                 <br>
                 <textarea name="" rows="10" cols="50">Mensaje Para los Novios</textarea>
                 <br> 
-                <div class="botonhome"><button type="submit">Enviar</button></div>           
+                <div class="botonhome"><button class="botonConfirmacion" type="submit"> Enviar </button></div>           
                 
             </for>
         </div>
