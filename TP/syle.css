@@ -335,6 +335,32 @@ img{
 .linkMaps:hover{
     background: rosybrown;
 }
+.servicios{
+    background-color: #a7a2ff;
+    display: block;
+    text-align: center;
+    margin: 50px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#9a7baf, #8379c4 50%,#00DDEB);
+    color: #fff;
+    
+}
+.card__tipo{
+    padding: 5px;
+    margin: 2px;
+}
+
+.card__precio{
+    padding: 5px;
+    margin: 2px;
+}
+.card__desc{
+    padding: 5px;
+    margin: 0px;
+   
+}
+
+
 
 .contenedorconf{
     background-color: rgb(150, 136, 136);

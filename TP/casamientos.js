@@ -1,3 +1,41 @@
+const servicios = {
+    servicio:[
+        {
+            tipo:"BASICO",
+            invitacion:true,
+            book:false,
+            confirmacion:false,
+            id:1,
+            precio:40000,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja. "
+
+        },
+        {
+            tipo:"MEDIO",
+            invitacion:true,
+            book:true,
+            confirmacion:false,
+            id:2,
+            precio:50000,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK."
+
+        },
+        {
+            tipo:"PREMIUN",
+            invitacion:true,
+            book:true,
+            confirmacion:true,
+            id:3,
+            precio:60000,
+            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK,tambien habra un apartado de CONFIRMACION de asisitencia ,que se subira a una base de datos y enviados a la pareja para tener conocimiento de la cantidad de asistencias que tendra el evento  "
+
+        }
+    ]
+}
+
+
+
+
 const casamientos = {
     nombres:"Casamiento",
 
@@ -27,36 +65,5 @@ const casamientos = {
    
 }
 
-const servicios= {
-    servicio:[
-        {
-            tipo:"BASICO",
-            invitacion:true,
-            book:false,
-            confirmacion:false,
-            id:1,
-            descripcion:"Este servicio lleva invitacion personalizada por la pareja. "
 
-        },
-        {
-            tipo:"MEDIO",
-            invitacion:true,
-            book:true,
-            confirmacion:false,
-            id:2,
-            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK."
-
-        },
-        {
-            tipo:"PREMIUN",
-            invitacion:true,
-            book:true,
-            confirmacion:true,
-            id:3,
-            descripcion:"Este servicio lleva invitacion personalizada por la pareja,un fotografo de nuestra empresa y con ellos se subiran las fotos ,en un apartado de llamado BOOK  "
-
-        }
-    ]
-}
-
-export default casamientos
+export default servicios
